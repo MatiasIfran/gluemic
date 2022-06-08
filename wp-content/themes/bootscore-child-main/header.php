@@ -45,7 +45,7 @@
 
         <nav id="nav-main" class="navbar navbar-expand-lg navbar-light">
 
-          <div class="container-fluid">
+          <div class="container">
 
             <!-- Navbar Brand -->
             <a class="navbar-brand xs d-md-none" href="<?php echo esc_url(home_url()); ?>"><img width="100" height="50" src="<?php echo esc_url(get_stylesheet_directory_uri()); ?>/img/logo/logo_horizontal.png" alt="logo" class="logo xs"></a>
@@ -57,7 +57,7 @@
                 <span class="h5 mb-0"><?php esc_html_e('Menu', 'bootscore'); ?></span>
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
               </div>
-              <div class="offcanvas-body">
+              <div class="offcanvas-body justify-content-end">
                 <!-- Bootstrap 5 Nav Walker Main Menu -->
                 <?php
                 wp_nav_menu(array(
